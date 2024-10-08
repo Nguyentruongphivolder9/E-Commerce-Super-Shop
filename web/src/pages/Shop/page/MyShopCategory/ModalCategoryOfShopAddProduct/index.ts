@@ -1,0 +1,3 @@
+import ModalCategoryOfShopAddProduct from './ModalCategoryOfShopAddProduct'
+
+export default ModalCategoryOfShopAddProduct
