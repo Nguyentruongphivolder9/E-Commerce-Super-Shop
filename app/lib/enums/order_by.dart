@@ -1,4 +1,0 @@
-enum OrderBy {
-  asc,
-  desc,
-}
