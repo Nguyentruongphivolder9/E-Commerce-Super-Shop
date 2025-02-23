@@ -1,0 +1,74 @@
+@layer tailwind {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+  line-height: 1.2;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: auto;
+}
+
+.sidebar-height {
+  height: calc(100% - 56px);
+}
+
+.categories-slider .slick-list .slick-track .slick-slide > div {
+  height: 160px;
+}
+
+.button__bar {
+  position: absolute;
+  vertical-align: middle;
+  left: 0;
+  bottom: 5px;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: #fff6;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #8a8a8a66;
+  border-radius: 7.5px;
+}
+
+.button__bar li.slick-active button {
+  background-color: #0099ff;
+}
+
+.button__bar li button:hover {
+  background: #fff6;
+  outline: 0;
+}
+
+.slick-slide img {
+  border: none;
+  display: block;
+  margin: auto;
+}
